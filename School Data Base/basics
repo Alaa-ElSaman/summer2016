@@ -1,0 +1,51 @@
+Project: Design a school system database in order to link teacher, students and classes. In order to be able to identify which teachers teach
+which classes and which student are in which classes. 
+
+**We want to first off start in a very simple and basic link between the teachers,the classes and the subjects. In order to do such we we will 
+only need to know the id for each thing (CRN(=class ID), StudentID and TeacherID).
+
+
+
+
+
+
+STUDENT:
+STEP 1:
+	*-CRN
+	*-studentid
+	
+	
+Step 2: 
+	-GPA	
+
+Step 3:
+	-birth date
+	-full time or not -- we will put this in a boolean-- 
+	-name 
+	- adresse
+	
+
+CLASS:
+STEP 1:
+	*-teacherid (add the teacher id if crn on teacher)
+	-CRN
+	*-student id (add the students id in here from CRN)
+		
+Step 2: 		
+	-grades (GPA Only)
+
+Step 3: 
+	-average grade
+	-lowest grade
+	-credit hours
+	
+	
+TEACHER: 
+STEP 1:
+	*-teacherid
+	*-CRN	
+	
+Step 3: 
+	-name
+	-full time? 
+	- adresse
