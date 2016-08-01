@@ -7,5 +7,7 @@
 	<classpathentry kind="lib" path="C:/Users/Elbar/Downloads/Compressed/poi-3.14/poi-ooxml-schemas-3.14-20160307.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Elbar/Downloads/Compressed/poi-3.14/ooxml-lib/curvesapi-1.03.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Elbar/Downloads/Compressed/poi-3.14/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Elbar/Desktop/opencsv-3.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Elbar/Desktop/commons-csv-1.4/commons-csv-1.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
