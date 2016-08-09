@@ -6,14 +6,12 @@ import java.util.Date;
 import javax.persistence.*;
 import javax.xml.bind.annotation.*;
 
-
-
-@XmlRootElement(name ="user")
+@XmlRootElement(name = "user")
 @Entity
-@Table(name ="tbl_students")
+@Table(name = "tbl_students")
 public class User implements Serializable {
 	@Id
-	@Column(name ="id")
+	@Column(name = "id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	@Column(name = "password")
@@ -23,13 +21,13 @@ public class User implements Serializable {
 	@Column(name = "lname")
 	private String lname;
 	@Column(name = "birth_date")
-	private String birthdate ;
+	private String birthdate;
 	@Column(name = "phone")
 	private String phone;
 	@Column(name = "email")
 	private String email;
 	@Column(name = "department")
-	private String department ;
+	private String department;
 	@Column(name = "subjects")
 	private int subjectnum;
 	@Column(name = "degree")
@@ -37,11 +35,11 @@ public class User implements Serializable {
 	@Column(name = "grade")
 	private String grade;
 	@Column(name = "start_date")
-	private String startdate ;
+	private String startdate;
 	@Column(name = "end_date")
-	private String enddate ;
+	private String enddate;
 	@Column(name = "paid")
-	private boolean paid ;
+	private boolean paid;
 
 	public User() {
 	}
@@ -178,5 +176,4 @@ public class User implements Serializable {
 		this.paid = paid;
 	}
 
-	
 }
